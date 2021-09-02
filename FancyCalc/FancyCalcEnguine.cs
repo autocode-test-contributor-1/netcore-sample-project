@@ -7,7 +7,7 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
-            fun1(1)
+            fun1(1);
             return a + b;
         }
 
