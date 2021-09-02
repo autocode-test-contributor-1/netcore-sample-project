@@ -27,7 +27,6 @@ namespace FancyCalc
         {
          if(n>0)
          {
-              printf("%d ",n);
               fun1(n+1);
          }
         }
