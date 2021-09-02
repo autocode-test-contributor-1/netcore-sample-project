@@ -7,7 +7,7 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
-            Radius();
+            fun1(1)
             return a + b;
         }
 
@@ -23,9 +23,13 @@ namespace FancyCalc
             return a * b;
         }
 
-        public double Radius()
+        void fun1(int n)
         {
-        get => Radius;
+         if(n>0)
+         {
+              printf("%d ",n);
+              fun1(n+1);
+         }
         }
     }
 }
