@@ -7,6 +7,7 @@ namespace FancyCalc
 
         public double Add(int a, int b)
         {
+            Radius();
             return a + b;
         }
 
@@ -20,6 +21,11 @@ namespace FancyCalc
         public double Multiply(int a, int b)
         {
             return a * b;
+        }
+
+        public double Radius()
+        {
+        get => Radius;
         }
     }
 }
